@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Número de caracteres</title>
+  </head>
+  <body>
+    <h1>Número de caracteres</h1>
+    <script>
+      function checar_numero() {
+        const numero = Number(prompt("Digite um número"));
+        if (numero > 0) {
+          alert("positivo");
+        } else if (numero === 0) {
+          alert("zero");
+        } else {
+          alert("negativo");
+        }
+      }
+      checar_numero();
+    </script>
+  </body>
+</html>
